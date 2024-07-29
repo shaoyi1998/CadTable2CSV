@@ -25,8 +25,8 @@ configparser库
 安装
 克隆仓库：
 
-git clone https://github.com/yourusername/network_safe.git
-cd network_safe
+git https://github.com/shaoyi1998/CadTable2CSV.git
+cd CadTable2CSV
 安装所需的库：
 
 pip install ezdxf cryptography configparser
@@ -63,8 +63,8 @@ configparser library
 Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/network_safe.git
-cd network_safe
+git clone https://github.com/shaoyi1998/CadTable2CSV.git
+cd CadTable2CSV
 Install the required libraries:
 
 pip install ezdxf cryptography configparser
