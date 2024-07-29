@@ -18,8 +18,8 @@ from ezdxf.entities.acad_table import read_acad_table_content
 import configparser
 from cryptography.fernet import Fernet
 
-# 生成一个密钥（请妥善保管此密钥）
-key = b'fzrywy1998'
+# 生成一个密钥（请妥善保管此密钥）请自己修改 please change it firstly
+key = b'8p8pUfc4BUikR68lsIyzmhHOE2J2rYtb5igCI4ckxCo='
 cipher_suite = Fernet(key)
 
 
