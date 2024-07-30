@@ -71,8 +71,7 @@ def print_all_texts(dxf_file):
         if entity.dxftype() == 'ACAD_TABLE':
             values = read_acad_table_content(entity)
             with open(f"{values[0][0]}.csv", "w") as f:
-                f.write("\n".join(
-                    [",".join([vv.replace(",", ";").split(";")[-1].split("}")[0] for vv in v]) for v in values]))
+                f.write("\n".join([",".join([vv.replace(",", ";") for vv in v]) for v in values]))
 
 
 if __name__ == "__main__":
